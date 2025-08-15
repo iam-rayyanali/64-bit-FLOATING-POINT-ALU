@@ -4,21 +4,21 @@ This project implements a **64-bit IEEE 754-compliant Floating Point Unit (FPU)*
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ IEEE 754 **double-precision (64-bit)** floating-point format  
-- ✅ Support for **Addition**, **Subtraction**, **Multiplication**, **Division**  
-- ✅ Handles **edge cases**:  
+-  IEEE 754 **double-precision (64-bit)** floating-point format  
+-  Support for **Addition**, **Subtraction**, **Multiplication**, **Division**  
+-  Handles **edge cases**:  
   - Zero  
   - Infinity  
   - NaN (Not a Number)  
   - Denormalized numbers  
-- ✅ **Modular Verilog** design  
-- ✅ Comes with **two testbenches** for validation  
+-  **Modular Verilog** design  
+-  Comes with **two testbenches** for validation  
 
 ---
 
-## 🧮 Supported Operations
+##  Supported Operations
 
 The operation is selected using a 2-bit `op` input:
 
@@ -31,7 +31,7 @@ The operation is selected using a 2-bit `op` input:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 .
